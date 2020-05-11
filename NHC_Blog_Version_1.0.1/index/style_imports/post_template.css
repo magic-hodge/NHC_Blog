@@ -1,0 +1,86 @@
+@import "post_header.css";
+@import "background_images.css";
+@import "next_bar.css";
+@import "comment_card.css";
+@import "post_footer.css";
+@import "post_typography.css";
+@import "style_imports/fa_icons.css";
+
+/* Styling for the wrapper -- mainly to fix the footer. . . */
+
+.wrapper {
+	min-height: 100%;
+	margin-bottom: 10vh;
+}
+
+/* Styling for the page grid layout. */
+
+.page {
+	display: grid;
+	min-height: 100%;
+	grid-template-columns: 100%;
+	grid-template-rows: 120px 80vh 100px;
+	grid-template-areas:
+	"head"
+	"main"
+	"foot";
+}
+
+/* Styling for the body section. */
+
+.main {
+	display: grid;
+	min-height: 100%;
+	grid-template-columns: 100%;
+	grid-template-rows: 400px 1fr;
+	grid-template-areas:
+	"photoTitle"
+	"content";
+	padding-bottom: 10vh;
+}
+
+/* Styling for the photo.title section. */
+
+.photoTitle {
+	display: flex;
+	flex-direction: column;
+	height: 400px;
+
+	/* Styling for the mainTitle */
+
+	justify-content: flex-end;
+	padding-left: 30px;
+}
+
+/* Styling for the main title */
+
+.mainTitle {
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Styling for the post content. */
+
+.postContent {
+
+}
+
+#postContentBox {
+	padding: 10px;
+	margin: 10px;
+}
+
+#aboutBox {
+	min-height: 110vh;
+}
+
+/* Styling for the image box. */
+
+#sigFlag,
+#wrapPose,
+#vegasSuperman,
+#cuteAf {
+	height: 65vh;
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: italic;
+}

@@ -1,0 +1,42 @@
+/* Styling for the general site typography */
+
+/* Styling - Headers */
+
+h1,
+h2,
+h3 {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Styling Paragraphs */
+
+p {
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 125%;
+}
+
+/* Styling Links */
+
+a {
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #808080;
+}
+
+/* Styling Quotes */
+
+blockquote {
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: italic;
+}
+
+/* Styling Captions. */
+
+caption {
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: italic;
+}

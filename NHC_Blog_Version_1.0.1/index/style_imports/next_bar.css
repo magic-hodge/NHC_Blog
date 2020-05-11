@@ -1,0 +1,36 @@
+/* Styling for the Next Bar */
+
+.nextBar {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	border-top: 2px solid #808080;
+	border-bottom: 2px solid #808080;
+	min-height: 6vh;
+	padding: 5px;
+}
+
+button {
+	height: 50px;
+	min-width: 100px;
+	font-weight: bold;
+}
+
+button:hover {
+	box-shadow: 1px 1px 1px 1px grey;
+}
+
+#prevButton {
+	color: #0d0d0d;
+	border: 3px solid #0d0d0d;
+	background-color: white;
+	border-radius: 15px;
+}
+
+#nextButton {
+	color: white;
+	border: 1px solid #0d0d0d;
+	background-color: #0d0d0d;
+	border-radius: 15px;
+}
