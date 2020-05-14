@@ -1,0 +1,65 @@
+/* Styling for the comment card */
+
+.commentCard {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #0d0d0d;
+	margin-bottom: 12.5vh;
+}
+
+#commentGrid {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: repeat(5, 1fr);
+	grid-row-gap: 0px;
+	width: 70vw;
+	justify-content: center;
+	align-items: center;
+}
+
+#commentText {
+	font-weight: bold;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+textarea {
+	border: 1px solid #808080;
+	border-radius: 5px;
+}
+
+#name {
+
+}
+
+#email {
+
+}
+
+#comment {
+	
+}
+
+#cancelSubmit {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+#cancel {
+	width: 47.5%;
+	color: #0d0d0d;
+	border: 3px solid #0d0d0d;
+	background-color: white;
+	border-radius: 15px;
+}
+
+#submit {
+	width: 47.5%;
+	color: white;
+	border: 1px solid #0d0d0d;
+	background-color: #0d0d0d;
+	border-radius: 15px;
+}

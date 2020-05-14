@@ -1,0 +1,182 @@
+/* Styling for the Blog Post Container. Maybe I make this a grid... */
+
+.blogPostBox {
+	display: flex;
+	flex-direction: column;
+	height: 1fr;
+}
+
+/* Styling for the Blog Post Class. Height should be static, I think... */
+
+.blogPosts {
+	
+	/* Blod Posts Grid Styling */
+	display: grid;
+	width: 85vw;
+	grid-template-columns: 1fr 2fr;
+	grid-template-rows: repeat(2, 1fr) 4fr;
+	grid-row-gap: 0px;
+	grid-column-gap: 15px;
+	min-height: 250px;
+	border-radius: 40px;
+	box-shadow: 2px 2px 2px 2px grey;
+	margin: 7px;
+	color: #0d0d0d;
+	background-color: white;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.blogPosts:hover .postImage {
+	opacity: 0.25;
+	transition: 0.3s;
+}
+
+.blogPosts:hover .readMore {
+	opacity: 1;
+	transition: 0.3s;
+}
+
+/* Styling for the Blog Post Boxes Grid Areas */
+
+.postImage {
+	grid-area: 1/1/4/2;
+	border-radius: 40px;
+	min-width: 300px;
+	opacity: 1;
+} 
+
+.postTitle {
+	grid-area: 1/2/2/3;
+	display: flex;
+	font-size: 125%;
+	font-weight: bold;
+	padding: 5px;
+	align-items: center;
+}
+
+.postInfo {
+	grid-area: 2/2/3/3;
+	display: flex;
+	flex-direction: row;
+	padding: 5px;
+	justify-content: space-around;
+	align-items: center;
+	font-size: 105%;
+	font-weight: bold;
+}
+
+.postPreview {
+	grid-area: 3/2/4/3;
+	display: flex;
+	flex-direction: row;
+	padding: 5px;
+	align-items: center;
+
+}
+
+.readMore {
+	grid-area: 1/1/4/2;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	opacity: 0;
+}
+
+.readLink {
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #0d0d0d;
+	position: relative;
+}
+
+.readLink:hover {
+	text-decoration: underline;
+	color: #0d0d0d;
+}
+
+.blogTitles {
+	color: #0d0d0d;
+}
+
+.authorLinkDark {
+	color: #0d0d0d;
+}
+
+/* Styling for blog Post One. */
+
+.postOne {
+
+}
+
+.postOneImage {
+	background-image: url(../photos/UpBd_Discovery_Walking_Angle_1.jpg);
+	background-size: cover;
+}
+
+.postOneTitle {
+
+}
+
+.postOneInfo {
+
+}
+
+.postOnePreview {
+
+}
+/* Styling for blog Post Two. */
+
+.postTwo {
+
+}
+
+.postTwoImage {
+	background-image: url(../photos/CB_MH2_Nick_Stand_Out_1.jpg);
+	background-size: cover;
+}
+
+.postTwoTitle {
+
+}
+
+.postTwoInfo {
+
+}
+
+.postTwoPreview {
+
+}
+
+/* Styling for blog Post Three. */
+
+.postThree {
+
+}
+
+.postThreeImage {
+	background-image: url(../photos/DN_CTC_Head_Support_1.jpg);
+	background-size: cover;
+}
+
+.postThreeTitle {
+
+}
+
+.postThreeInfo {
+
+}
+
+.postThreePreview {
+
+}
+
+/* Styling for the author and title link section of blog posts */
+
+.authorLink {
+	color: white;
+}
+
+.titleLink {
+	color: white;
+}
