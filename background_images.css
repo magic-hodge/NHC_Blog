@@ -1,22 +1,22 @@
 /* Styling for the background images for separate site pages & blog posts. */
 
 #aboutBackground {
-	background: url("../photos/Thinker_1.jpg");
+	background: url("Thinker_1.jpg");
 	background-size: cover;
 }
 
 #postOneBackground {
-	background: url("../photos/UpBd_Discovery_Walking_Angle_2.jpg");
+	background: url("UpBd_Discovery_Walking_Angle_2.jpg");
 	background-size: cover;
 }
 
 #postTwoBackground {
-	background: url("../photos/CB_MH2_Nick_Stand_Out_2.jpg");
+	background: url("CB_MH2_Nick_Stand_Out_2.jpg");
 	background-size: cover;
 }
 
 #postThreeBackground {
-	background: url("../photos/DN_CTC_Head_Support_2.jpg");
+	background: url("DN_CTC_Head_Support_2.jpg");
 	background-size: cover;
 }
 
