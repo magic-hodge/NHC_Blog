@@ -1,0 +1,25 @@
+/* Styling for the footer. */
+
+.footer {
+	display: flex;
+	flex-direction: column;
+	height: 10vh;
+	margin-top: -10vh;
+	justify-content: center;
+	text-align: center;
+	color: #808080;
+	font-size: 125%;
+	border-top: 2px solid #808080;
+}
+
+/* Styling for the footer link. */
+
+.hoverLink {
+	font-weight: initial;
+	text-decoration: none;
+	color: #808080;
+}
+
+.hoverLink:hover {
+	text-decoration: underline;
+}

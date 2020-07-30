@@ -1,0 +1,36 @@
+/* Styling for the background images for separate site pages & blog posts. */
+
+#aboutBackground {
+	background: url("../photos/Thinker_1.jpg");
+	background-size: cover;
+}
+
+#postOneBackground {
+	background: url("../photos/UpBd_Discovery_Walking_Angle_2.jpg");
+	background-size: cover;
+}
+
+#postTwoBackground {
+	background: url("../photos/CB_MH2_Nick_Stand_Out_2.jpg");
+	background-size: cover;
+}
+
+#postThreeBackground {
+	background: url("../photos/DN_CTC_Head_Support_2.jpg");
+	background-size: cover;
+}
+
+/* Styling for the Embedded Videos */
+
+.vidBox1 {
+	padding:56.25% 0 0 0;
+	position:relative;
+}
+
+.vidLink1 {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
